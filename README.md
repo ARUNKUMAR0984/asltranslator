@@ -1,16 +1,22 @@
-# sign_language_app
+# ASL Translator Web App
 
-A new Flutter project.
+This Flutter web app converts **spoken speech to text** and then displays the **corresponding ASL (American Sign Language) images** for each alphabet in the speech. It's designed to help **deaf and mute individuals** learn English alphabets through sign language.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎤 **Speech to Text** using Flutter's speech-to-text package
+- 🔤 **Letter-by-letter ASL Image Mapping**
+- 🖼️ Displays ASL images from `/images` folder (`A.jpg`, `B.jpg`, ..., `Z.jpg`)
+- 💻 Built with Flutter Web
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+flutter pub get
+flutter run -d chrome
