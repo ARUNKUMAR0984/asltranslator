@@ -242,7 +242,7 @@ class _SpeechToASLAppState extends State<SpeechToASLApp> with SingleTickerProvid
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(8),
                                   child: Image.asset(
-                                    'assests/images/$char.jpg',
+                                    'assets/images/$char.jpg',
                                     width: 48,
                                     height: 48,
                                     fit: BoxFit.contain,
